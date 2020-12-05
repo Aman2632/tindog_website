@@ -1,0 +1,154 @@
+.body{
+   font-family: "Montserrat-Black";
+padding: 0;
+    margin: 0;
+}
+
+#title{
+    background-color: #ff4c68;
+    padding-bottom: 0;
+}
+
+.navbar{
+    margin-bottom: 5rem;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: 500;
+    
+}
+
+.nav-item{
+     margin-right: 18px;
+     margin-left: 7%;
+}
+
+.container-fluid{
+    padding: 3% 20% 7%;
+   
+}
+
+.download-button{
+    margin-top: 5%;
+    margin-right: 3%;
+}
+
+
+h1{
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: floralwhite
+}
+
+h3{
+    font-family: "Montserrat-Black";
+    font-weight: 900;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.iphone{
+    transform: rotateZ(27deg);
+    width: 60%;
+    margin-left: 4rem;
+    padding-top: 0;
+    position: absolute;
+}
+
+#features{
+    padding: 7% 15% ;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+   
+}
+
+
+.icon{
+    color: #ef1872;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+.features-box{
+    text-align: center;
+    padding: 4.5rem;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+    background-color: #ff4c68;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.press-img{
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+#pricing{
+    padding: 3% 2%;
+}
+
+.card{
+    text-align: center;
+}
+
+.pricing-item{
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+    .iphone{
+        transform: rotate(0);
+        position: static;
+    }
+}
+
+#cta{
+     background-color: #ff4c68;
+     text-align: center;
+     padding: 5% 35% ;
+     color: white;
+     font-weight: 900;
+     font-family: "Montserrat-Black";
+}
+
+#footer{
+    text-align: center;
+    padding: 3% 10%;
+}
+
+.ficon{
+    margin-right: 1%;
+}
+
+.ff{
+    margin-bottom: 15px;
+}
+
+
